@@ -1,0 +1,44 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 48px;
+    .header-title{
+        display: flex;
+        h1{
+            font-size: 24px;
+            font-weight: bold;       
+            padding-right: 48px;
+        }
+        .add_admin{
+            display: flex;
+            align-items: center;
+            p{
+                font-weight: bold;                
+            }
+            .green{
+                color: #198754;
+            }
+        }
+    }
+    .pr-24 {
+        padding-right: 24px;
+    }
+}
+.box-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 8px;
+    .box-list{
+        display: flex;
+        align-items: center;
+        margin-bottom: 4px;
+        p{
+            font-weight: bold;
+            padding-right: 9px;
+        }
+        .green{
+            color: #198754;
+        }
+    }
+}

@@ -1,0 +1,50 @@
+.ml-32{
+  margin-left: 32px;
+}
+
+.font-12{
+  font-size: 12px;
+}
+
+.mb-4{
+  margin-bottom: 4px;
+}
+.fw-bold{
+  font-weight: bold;
+}
+.table-head{
+  border-bottom:1px solid #212529;
+}
+.border-body{
+  border-bottom:1px solid #CED4DA;
+  height: 55px;
+  align-items: center;
+}
+.pr-24  {
+  padding-right: 24px;
+}
+.pages-list{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;  
+  text-align: center;
+  width: 160px;
+  li{           
+    .number{
+      padding: 6px 12px;      
+    }
+    a{
+      border:1px solid green;
+    }
+    a:hover{
+      background-color: green;
+      color:white;
+    }
+    .page{
+      color:green; 
+      padding-left: 4px;
+      padding-top: 11px;
+      padding-bottom: 1px;                    
+    }
+  }
+}

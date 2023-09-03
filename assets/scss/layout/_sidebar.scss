@@ -1,0 +1,45 @@
+.nav{
+  background-color: #F8F9FA;
+  min-width: 296px;
+  height: 100vh;
+  position: sticky;
+  top: 0;
+  left: 0;
+  overflow-y: auto;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-left: 32px;
+}
+
+.nav-bar{
+  margin-top: 32px;
+  .logo{
+    margin-bottom: 32px;
+  }
+  .green{
+    color:#198754;
+  }
+  .menu-list{
+    font-weight: bold;
+    
+    li{
+      padding-bottom: 29px;
+    }
+  }
+}
+.contact{
+  display: flex;
+  .contact-img{
+    width: 40px;
+    height: 40px;
+    border-radius: 24px;
+  }
+  h2{
+    margin-bottom: 4px;
+  }
+  .email{
+    font-size: 14px;
+    color:#6C757D;
+  }
+}
+
